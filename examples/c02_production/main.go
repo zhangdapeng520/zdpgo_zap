@@ -1,9 +1,3 @@
-# zdpgo_zap
-基于zap二次开发，主要用于学习和研究
-
-## 用法
-### 基本使用
-```go
 package main
 
 import (
@@ -23,9 +17,3 @@ func main() {
 		zap.Duration("backoff", time.Second),
 	)
 }
-
-```
-
-## 版本历史
-### v0.1.0
-- 基础代码
